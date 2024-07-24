@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #875DE8;
+    --cor2: #6A6DD9;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        background-image: linear-gradient(to top, #875DE8, #6A6DD9);
+    }
+
+    #login {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+
+        background-color: #ffffff;
+        border-radius: 10px;
+        width: 400px;
+        height: 570px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.445);
+
+        transition: width .3s, height .3s;
+        transition-timing-function: ease;
+    }
+
+    #login>#imagem {
+        display: block;
+        background: var(--cor2) url(../imagens/lago&arvores-back.jpg) no-repeat;
+        background-size: cover;
+        height: 250px;
+        border-radius: 10px 10px 0 0;
+        border: 4px solid #ffffff;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    /* TABLET */
+
+    body {
+        background-image: linear-gradient(to top, #875DE8, #6A6DD9);
+    }
+
+    #login {
+        width: 80vw;
+        height: 70vh;
+    }
+
+    #login>#imagem {
+        background-image: url(../imagens/ipeamarelo.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        float: left;
+        width: 40%;
+        height: 100%;
+        border-radius: 10px 0 0 10px;
+    }
+
+    #login>#form {
+        float: right;
+        width: 60%;
+        background-position: center left;
+    }
+
+    h1 {
+        padding: 40px 40px 0 40px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #875de8, #6a6dd9);
+    }
+
+    #login {
+        width: 1000px;
+        height: 600px;
+    }
+
+    #login>#imagem {
+        background-image: url(../imagens/casa&montanha-back.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        float: right;
+        width: 50%;
+        height: 100%;
+        border-radius: 0 10px 10px 0;
+    }
+
+    #login>#form {
+        float: left;
+        width: 50%;
+    }
+
+    h1 {
+        padding: 40px 40px 0 40px;
+    }
+
+}

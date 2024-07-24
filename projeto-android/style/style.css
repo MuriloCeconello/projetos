@@ -1,0 +1,188 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url(../font/idroid.otf) format('opentype');
+}
+
+* {
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(to top, #015532, #02DD82);
+    padding-top: 40px;
+    min-width: 150px;
+    color: #ffffff;
+}
+
+h1#principal {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 40px;
+}
+
+p#frase {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 17px;
+    text-align: center;
+}
+
+.menu {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: #015532;
+    padding: 10px 0 10px 0;
+}
+
+.menu>a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu>a:hover {
+    background-color: #02DD82;
+    color: #12411e;
+}
+
+body {
+    background-color: #82E2AA;
+}
+
+
+main {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 1px 1px 5px 2px #015532;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1#secundario {
+    font-family: 'android', cursive;
+    color: #1A602C;
+    font-size: 30px;
+    text-indent: 10px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color: #000000;
+    text-indent: 30px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+.subtitulos {
+    font-family: 'android', cursive;
+    color: #1d6e32;
+    font-size: 23px;
+    text-indent: 10px;
+    background-image: linear-gradient(to right, #82e2aa9d, #ffffff);
+}
+
+.destaque {
+    color: #12411e;
+}
+
+.links {
+    text-decoration: none;
+    font-weight: bold;
+    color: #12411e;
+    background-color: #82e2aa9d;
+}
+
+.links::after {
+    content: '\1F517';
+}
+
+.links:hover {
+    text-decoration: underline;
+    color: #1A602C;
+}
+
+.imgs {
+    width: 75%;
+}
+
+.img {
+    text-align: center;
+}
+
+div#video {
+    background-color: #12411e;
+    margin: 0 -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div#video>iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    color: #000000;
+    background-color: #82e2aaa4;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+aside>ul {
+    list-style-type: '\1F5F8\00A0' ,circle;
+    list-style-position: inside;
+    columns: 2;
+    padding: 0;
+}
+
+.extratitulo {
+    background-color: #015532;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 10px 10px 0px 0px;
+    margin: -10px -10px 0 -10px;
+
+}
+
+.pextra {
+    padding: 15px;
+}
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #12411e;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin: 0 -20px -20px -20px;
+    border-radius: 0 0 5px 5px;
+
+}
+
+footer a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #82E2AA;
+}
